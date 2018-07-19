@@ -47,7 +47,7 @@ end
   end
   
   def sell_pets
-    @pets.each do {|type, name| if type.empty?
+    @pets.each do {|type, name| if type.empty? == true}
   
 end
     
