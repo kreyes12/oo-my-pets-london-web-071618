@@ -51,6 +51,7 @@ class Owner
   Fish.mood
     end
   end
+  end
     
     
 
