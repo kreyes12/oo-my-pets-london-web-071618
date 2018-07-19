@@ -48,6 +48,7 @@ class Owner
     if @pets[:cats].empty?
       Cat.mood
     end
+  end
     
     
 
