@@ -51,6 +51,9 @@ class Owner
    @pets = {fishes: [], cats: [], dogs: []}
  end
   
+  def 
+  
+  
   def self.all
     @@all
   end
