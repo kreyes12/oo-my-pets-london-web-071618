@@ -38,7 +38,9 @@ end
     @pets[:dogs].map {|dog| dog.mood=("happy")}
 end
 
-  def play_cats
+  def play_with_cats
+    
+end
     
     
 
