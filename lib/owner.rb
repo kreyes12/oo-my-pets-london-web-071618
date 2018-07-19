@@ -48,7 +48,7 @@ end
   
   def sell_pets
     if @pets[:cats].empty?
-      
+      Cat.mood = "nervous"
       
   
 end
