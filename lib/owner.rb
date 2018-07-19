@@ -46,7 +46,8 @@ end
     @pets[:fishes].map {|fish| fish.mood=("happy")}
   end
   
-  def 
+  def sell_pets
+    
     
     
 
