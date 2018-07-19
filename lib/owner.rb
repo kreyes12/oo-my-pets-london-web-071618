@@ -49,7 +49,6 @@ class Owner
   Cat.mood
   Dog.mood
   Fish.mood
-    
     end
   end
     
