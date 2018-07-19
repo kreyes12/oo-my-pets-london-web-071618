@@ -46,7 +46,7 @@ class Owner
   
   def sell_pets
    @pets[:dogs].map {|dog| dog.mood="nervous"}
-   @pets[:cats].map {
+   @pets[:cats].map {|cat| cat.mood="nervous"}
    @pets = {fishes: [], cats: [], dogs: []}
   
   
