@@ -47,8 +47,9 @@ end
   end
   
   def sell_pets
-    @pets[:fishes]
-    @pets[:dogs]
+    @pets[:fishes].delete
+    @pets[:dogs].delete
+    @pets[:cats].delete
   
 end
     
