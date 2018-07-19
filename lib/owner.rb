@@ -47,9 +47,7 @@ end
   end
   
   def sell_pets
-    @pets[:fishes].delete
-    @pets[:dogs].delete
-    @pets[:cats].delete
+    @pets.each do {|type, name| if type.empty?
   
 end
     
