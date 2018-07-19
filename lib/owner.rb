@@ -17,8 +17,6 @@ class Owner
     "I am a human."
   end
 
-    
-  
   def buy_cat(name)
     name = Cat.new(name)
     @pets[:cats] << name
@@ -36,7 +34,7 @@ class Owner
   
   def walk_dogs
     @pets[:dogs].map {|dog| dog.mood=("happy")}
-end
+  end
 
   def play_with_cats
     @pets[:cats].map {|cat| cat.mood=("happy")}
