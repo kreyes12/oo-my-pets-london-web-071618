@@ -45,8 +45,8 @@ class Owner
   end
   
   def sell_pets
-   if @pets[:dogs].empty?
-     dog.mood
+   @pets.delete()
+     
  
     end
   end
