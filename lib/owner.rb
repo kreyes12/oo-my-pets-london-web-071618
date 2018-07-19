@@ -45,11 +45,7 @@ class Owner
   end
   
   def sell_pets
-    if @pets[:cats].empty?
-      Cat.mood
-    if @pets[:dogs].empty?
-      Dog.mood
-    if @pets[:fishes].empty?
+    if @pets {
     
     end
   end
