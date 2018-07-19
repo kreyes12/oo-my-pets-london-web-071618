@@ -53,6 +53,7 @@ class Owner
   
   def list_pets
     
+    "I have {#}"
   
   
   def self.all
