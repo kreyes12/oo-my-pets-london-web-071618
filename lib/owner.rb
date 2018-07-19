@@ -45,7 +45,8 @@ class Owner
   end
   
   def sell_pets
-   @pets.delete()
+   @pets[:dogs].delete
+    dog.mood
      
  
     end
